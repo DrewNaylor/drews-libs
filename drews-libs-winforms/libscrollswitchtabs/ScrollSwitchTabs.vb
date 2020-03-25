@@ -20,6 +20,6 @@
 
 
 
-Public Class Class1
+Public Class ScrollSwitchTabs
 
 End Class
