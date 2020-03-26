@@ -19,3 +19,13 @@ Example code:
         ScrollSwitchTabs.switch(tabcontrolFileOutput, e)
     End Sub
 ```
+
+Alternatively, you could use `CType(sender, TabControl)` in place of the `TabControl`'s name, and it should still work. This may make it easier to implement, though it may, in turn, decrease readability.
+
+Example code:
+```vbnet
+    Private Sub tabcontrolFileOutput_MouseWheel(sender As Object, e As MouseEventArgs) Handles tabcontrolFileOutput.MouseWheel
+        ' Allow switching tabs by scrolling on them with the mouse wheel.
+        ScrollSwitchTabs.switch(CType(sender, TabControl), e)
+    End Sub
+```
