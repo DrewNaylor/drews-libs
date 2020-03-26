@@ -19,7 +19,44 @@
 '   limitations under the License.
 
 
+Imports System.Windows.Forms
+
 
 Public Class ScrollSwitchTabs
+    Private Sub switch(tabpage As TabPage, tabcontrol As TabControl, e As MouseEventArgs)
+        ' Getting the mouse scroll direction was based on this SO answer:
+        ' https://stackoverflow.com/a/2378365
 
+        ' Allows the tabs to be scrolled with the mouse, like in many
+        ' Linux applications.
+        ' Perhaps this could be made into a sub with args for easier reuse.
+
+        ' Ensure the mouse isn't in the tabpage itself.
+        ' This is based on this SO answer:
+        ' https://stackoverflow.com/a/21098227
+
+        If Not tabpage.ClientRectangle.Contains(tabpage.PointToClient(Control.MousePosition)) Then
+
+            If e.Delta > 0 Then
+                ' If scrolling down, go left.
+                If tabcontrol.SelectedIndex - 1 = -1 Then
+                    ' If the next tab is out of bounds, select the last tab.
+                    tabcontrol.SelectTab(tabcontrol.TabCount - 1)
+                Else
+                    ' Otherwise, select the tab to the left.
+                    tabcontrol.SelectTab(tabcontrol.SelectedIndex - 1)
+                End If
+            Else
+                ' If scrolling up, go right.
+                If tabcontrol.SelectedIndex + 1 > tabcontrol.TabCount - 1 Then
+                    ' If the next tab is out of bounds above the usable tab indexes,
+                    ' select the first tab.
+                    tabcontrol.SelectTab(0)
+                Else
+                    ' Otherwise, select the next tab to the right.
+                    tabcontrol.SelectTab(tabcontrol.SelectedIndex + 1)
+                End If
+            End If
+        End If
+    End Sub
 End Class
