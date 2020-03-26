@@ -23,7 +23,7 @@ Imports System.Windows.Forms
 
 
 Public Class ScrollSwitchTabs
-    Public Shared Sub switch(tabpage As TabPage, tabcontrol As TabControl, e As MouseEventArgs)
+    Public Shared Sub switch(tabcontrol As TabControl, e As MouseEventArgs)
         ' Getting the mouse scroll direction was based on this SO answer:
         ' https://stackoverflow.com/a/2378365
 
@@ -35,6 +35,7 @@ Public Class ScrollSwitchTabs
         ' This is based on this SO answer:
         ' https://stackoverflow.com/a/21098227
 
+        Dim tabpage As TabPage = tabcontrol.SelectedTab
         If Not tabpage.ClientRectangle.Contains(tabpage.PointToClient(Control.MousePosition)) Then
 
             If e.Delta > 0 Then
