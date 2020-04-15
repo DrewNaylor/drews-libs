@@ -43,13 +43,13 @@ public partial class Form1 : Form
 		tabControl1.MouseWheel+= new MouseEventHandler(tabControl1_MouseWheel);
 	}
 		
-		// ...
+	// ...
 		
 	private void tabControl1_MouseWheel(object sender, MouseEventArgs e)
-    {
-        // Switch tabs when they're scrolled.
-        libscrollswitchtabs.ScrollSwitchTabs.@switch(tabControl1, e);
-    }
+	{
+		// Switch tabs when they're scrolled.
+		libscrollswitchtabs.ScrollSwitchTabs.@switch(tabControl1, e);
+	}
 // ...
 }
 ```
