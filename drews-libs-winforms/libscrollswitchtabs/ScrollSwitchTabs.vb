@@ -1,6 +1,6 @@
 ﻿' libscrollswitchtabs - Switch tabs in the Windows Forms TabControl
 ' using the mouse scroll wheel, like many Linux applications.
-' Copyright 2020 Drew Naylor
+' Copyright 2020 Drew Naylor. Licensed under Apache License 2.0.
 ' (Note that the copyright years include the years left out by the hyphen.)
 '
 ' This file is a part of the drews-libs project.
@@ -17,6 +17,12 @@
 '   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 '   See the License for the specific language governing permissions and
 '   limitations under the License.
+'
+' Microsoft owns all their copyrights, including but not limited to Windows, Windows Forms, .NET, .NET Framework.
+' Any other companies mentioned own their respective copyrights/trademarks.
+'
+' Microsoft is not affiliated with either the drews-libs
+' project or Drew Naylor and does not endorse this software.
 
 
 Imports System.Windows.Forms
