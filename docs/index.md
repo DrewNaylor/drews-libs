@@ -5,4 +5,4 @@
 
 ## Libraries
 
-- [libscrollswitchtabs](/docs/libscrollswitchtabs-how-to-use.md)
+- [libscrollswitchtabs](/drews-libs/libscrollswitchtabs-how-to-use.html)
