@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
+    <id>libscrollswitchtabs</id>
+    <version>0.1</version>
+    <title>libscrollswitchtabs</title>
+    <authors>Drew Naylor</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/DrewNaylor/drews-libs</projectUrl>
-    <description>$description$</description>
+    <description>Switch tabs in the Windows Forms TabControl using the mouse scroll wheel, like many Linux applications.</description>
     <releaseNotes>Initial version.</releaseNotes>
-    <copyright>$copyright$</copyright>
+    <copyright>Copyright (C) 2020 Drew Naylor. Licensed under Apache License 2.0.</copyright>
     <tags>windowsforms tabcontrol scrolltabswitcher</tags>
   </metadata>
 </package>

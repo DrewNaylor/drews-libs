@@ -4,3 +4,4 @@
 ## Libraries
 
 - [libscrollswitchtabs](/docs/libscrollswitchtabs-how-to-use.md)
+Creating a NuGet package is confusing, so I'll wait for now.
