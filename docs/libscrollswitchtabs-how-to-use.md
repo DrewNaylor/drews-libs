@@ -5,7 +5,7 @@ Switch tabs in the Windows Forms TabControl using the mouse scroll wheel, like m
 
 This library is licensed under the Apache License 2.0.
 
-Usage instructions will assume you've already downloaded and extracted the library from the Releases page or you've added the library from NuGet. If you're cloning the repository, you'll have to build it then add a reference.
+Usage instructions will assume you've already downloaded and extracted the library from the Releases page or you've added the library from NuGet (once the NuGet version is ready, anyway). If you're cloning the repository, you'll have to build it then add a reference.
 1. Add a reference to `libscrollswitchtabs.dll` if you're using the non-NuGet version. It may be a good idea to copy the DLL somewhere more local to your application first, so it's easier to keep track of.
 2. Add an `Imports libscrollswitchtabs` statement (`using libscrollswitchtabs;` for C#) to the top of the file if you want to. This isn't required as you can refer to the full namespace in the code itself instead, but importing makes it take up less space in the event handlers.
 3. Get the `MouseWheel` event of the `TabControl` you want to allow scrolling on, and pass `ScrollSwitchTabs.switch` the tab control you want to allow scroll switching on and the `MouseEventArgs` (`e`, by default).
