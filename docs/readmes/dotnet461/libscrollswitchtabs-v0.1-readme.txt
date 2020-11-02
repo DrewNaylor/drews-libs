@@ -1,7 +1,7 @@
 If you are reading this in Notepad or another text editor, it displays best in Word Wrap view. Click on Format>Word Wrap on the top bar. Notepad++ users will find it under View>Word wrap.
 
 
-libscrollswitchtabs -- Version 0.1 - Built for .NET Framework 4.6.1 -- 11/01/2020 (MM/DD/YYYY).
+libscrollswitchtabs -- Version 0.1 - Built for .NET Framework 4.6.1 projects -- 11/01/2020 (MM/DD/YYYY).
 
 Please be sure to read the getting started guide available in "docs/getting-started.html".
 
@@ -14,7 +14,7 @@ https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-d
 7-Zip also has a way to check file hashes in the "CRC SHA" dropdown in the file context menu. This project is not associated with 7-Zip.
 
 SHA-256 sum for "libscrollswitchtabs.dll" in the archive:
-C32ED076D433B337C264EA1CF844084F2D11A961E5A7CD197FB01AFCF12E0CEC
+3F2741B885A3BDD03422E0346542BF4D13384A5287FD3BAF94D05C964ABECB92
 
 ----------------
 GENERAL NOTES
