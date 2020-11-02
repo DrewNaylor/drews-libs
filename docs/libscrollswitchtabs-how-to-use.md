@@ -1,4 +1,6 @@
-# libscrollswitchtabs
+[Repository homepage](https://github.com/drewnaylor/drews-libs)
+
+## libscrollswitchtabs
 Switch tabs in the Windows Forms TabControl using the mouse scroll wheel, like many Linux applications. Works with VB.Net and C# applications.
 
 Usage instructions will assume you've already downloaded and extracted the library from the Releases page or you've added the library from NuGet.
